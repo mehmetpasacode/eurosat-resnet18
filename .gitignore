@@ -1,0 +1,33 @@
+# Python and local environments
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local datasets and run artifacts
+/data/
+/EuroSAT/
+/dataset/
+/datasets/
+/outputs/
+/runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+
+# Archived figure pending redistribution permission
+/docs/figures/archived-training-metrics.png
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

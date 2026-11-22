@@ -1,0 +1,9 @@
+# Include only the Dockerfile and application sources in the build context.
+**
+!Dockerfile
+!.dockerignore
+!data.py
+!model.py
+!train.py
+!evaluate.py
+!infer.py
